@@ -5,9 +5,9 @@ from email.mime.text import MIMEText
 
 smtp_ssl_host = 'smtp.gmail.com'  # smtp.mail.yahoo.com
 smtp_ssl_port = 465
-username = 'osc@vitap.ac.in'
-password = 'asish@123'
-sender = 'osc@vitap.ac.in'
+username = 'email'
+password = 'password'
+sender = 'test@test.com'
 
 msg = MIMEText(f'''
 <p>Hi</p>
@@ -19,7 +19,7 @@ msg = MIMEText(f'''
 <div><span style="color: #3d85c6;"><strong>Akhil Surendran</strong></span></div>
 <div><span style="color: #3d85c6;"><strong>17BCE7087</strong></span></div>''', 'html')
 
-targets = ['akhil.surendran@vitap.ac.in']
+targets = ['recipient']
 # print(msg)
 # msg['Subject'] = 'Voter Details - OSC Election 2019'
 # msg['From'] = 'support@oscvitap.co.in'
